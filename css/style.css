@@ -1,10 +1,26 @@
 @font-face {
-    font-family: roboto;
+    font-family: roboto-regular;
     src: url(../font/RobotoCondensed-Regular.ttf);
 }
 @font-face {
-    font-family: raleway;
-    src: url(../font/Raleway.ttf);
+    font-family: raleway-bold;
+    src: url(../font/Raleway-v4020-Bold.otf);
+}
+@font-face {
+    font-family: raleway-semibold;
+    src: url(../font/Raleway-v4020-SemiBold.otf);
+}
+@font-face {
+    font-family: roboto-condensedlight;
+    src: url(../font/RobotoCondensed-Light.ttf);
+}
+@font-face {
+    font-family: roboto-condensedregular;
+    src: url(../font/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: roboto-condensedbold;
+    src: url(../font/RobotoCondensed-Bold.ttf);
 }
 .menu-hamburger{
     display: none;
@@ -28,8 +44,8 @@
 .menu>ul li{
     display: block;
     list-style: none;
-    font-family: roboto;
-    font-size: 24px;
+    font-family: roboto-regular;
+    font-size: 1rem;
 }
 .header{
     height: 30%;
@@ -37,19 +53,22 @@
     justify-content: center;
     align-items: flex-end;
     font-weight: bold;
-    font-size: 100px;
-    font-family: raleway;
+    font-size: 10rem;
+    font-family: raleway-bold;
+    color: #0D302C;
 }
 .subheader{
 display: flex;
 justify-content: center;
 align-items: center;
-font-family: roboto;
+font-family: roboto-condensedregular;
+color: #000000;
 font-size: 24px;
 }
 .second-title{
     font-size: 28px;
-    font-family: raleway;
+    font-family: raleway-semibold;
+    color: #01353E;
     text-align: center;
     margin: 100px 0 0 0;
 }
@@ -58,7 +77,8 @@ font-size: 24px;
     width: 70%;
     margin:50px auto;
     font-size: 14px;
-    font-family:roboto;
+    font-family:roboto-condensedlight;
+    color: #242121;
 }
 .col1{
     flex-basis: 50%;
@@ -77,7 +97,8 @@ font-size: 24px;
 .left-text{
     flex:1 1 45%;
     font-size: 14px;
-    font-family:roboto;
+    font-family:roboto-condensedlight;
+    color: #242121;
 }
 .text-content{
     margin:50px 50px 0;
@@ -94,10 +115,11 @@ font-size: 24px;
     height: auto;
 }
 .third-title{
-    font-family: raleway;
+    font-family: raleway-semibold;
     font-size: 28px;
     text-align: center;
     margin:50px 0;
+    color: #01353E;
 }
 /*Блок наша команда*/
 .command{
@@ -115,14 +137,16 @@ margin: auto;
 }
 .serfer-text div:first-child{
 font-size: 18px;
-font-family:roboto;
+font-family:roboto-condensedbold;
 font-weight: bold;
 text-align: center;
+color: #242121;
 }
 .serfer-text div:last-child{
 font-size: 14px;
-font-family:roboto;
+font-family:roboto-condensedregular;
 text-align: center;
+color: #242121;
 }
 .footer{
     width: 100rw;
